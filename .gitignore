@@ -1,0 +1,2 @@
+terraform/Infra/.terraform/*
+terraform/Infra/tf.out

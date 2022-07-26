@@ -14,7 +14,7 @@ spec:
   replicas: 3
   template:
     metadata:
-      name: 
+      name: simple-app-py-deployment
       labels:
         app: simple-app-py
         environment: test
