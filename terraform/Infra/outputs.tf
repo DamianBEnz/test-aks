@@ -1,3 +1,3 @@
 output "location" {
-  value = "location"
+  value = var.location
 }
