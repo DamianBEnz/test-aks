@@ -18,7 +18,7 @@ variable "aks_vm_standard" {
   default = "standard_D2as_v5"
 }
 
-variable "aks__node_count" {
+variable "aks_node_count" {
   type = number
   default = 2
 }

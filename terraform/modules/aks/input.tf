@@ -18,6 +18,6 @@ variable "aks_vm_standard" {
   type = string
 }
 
-variable "aks__node_count" {
+variable "aks_node_count" {
   type = number
 }
