@@ -17,7 +17,7 @@ module "azurerm_virtual_network" {
 resource "azurerm_kubernetes_cluster" "aks" {
   name = format ("%s-%s-%s", var.resource_group_name, var.environment, "aks")
   location = var.location
-  resource_group_name = var.resource_group_name
+  resource_group_name = azurerm_resource_group.aks.name
   dns_prefix = format ("%s-%s-%s", var.resource_group_name, var.environment, "dns")
  
   default_node_pool {
