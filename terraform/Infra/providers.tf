@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "azurerm" {
-        resource_group_name  = "Terraform-test-rg"
+        resource_group_name  = "CE-PL-IT-DamianM-test"
         storage_account_name = "terraformtestdm"
         container_name       = "tfstate"
         key                  = "terraform.tfstate"
